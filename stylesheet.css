@@ -1,0 +1,235 @@
+body {
+    background-image: linear-gradient(-90deg, #0F2027, #203A43, #2C5364);
+    padding: 0 10px;
+    margin: 0;
+
+}
+
+
+.navv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    margin-top: 3%;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+li:hover {
+    color: rgba(255, 255, 255, 1);
+    transition: all 0.3s ease;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+a:visited {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 1);
+    transition: all 0.3s ease;
+}
+
+a:active {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    transform: translateY(2px);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(255, 251, 232, 0.8);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-image: linear-gradient(-90deg, #0F2027, #203A43, #2C5364);
+    color: #fff;
+}
+
+
+.headline {
+    background-image: url(https://media.giphy.com/media/26BRvIYDe4ILO60Ni/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Roboto', sans-serif;
+    font-size: 600%;
+    align-content: center;
+    padding-left: 7%;
+    display: flex;
+
+}
+
+
+.imageholder {
+    display: flex;
+    align-items: center;
+    padding: 25px 10%;
+    border: outset;
+    border-width: 0 0 1px 0;
+    border-color: rgba(255, 255, 255, 0.6);
+    margin: 20px 50px;
+
+}
+
+.subhead {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 140%;
+    align-content: center;
+    padding-left: 7%;
+    justify-content: space-between;
+}
+
+.subhead:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}
+
+.me{
+    height: 350px;
+    width: auto;
+    margin: 2%;
+}
+
+.module{
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    left:50%;
+}
+.asgn{
+    width: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    transition: all 0.2s ease-in;
+}
+
+p .asgn:hover{
+    transform: scale(1.04);
+    
+}
+
+
+
+svg {
+    margin: 0 20px;
+    transform-origin: 193px 164px;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation: rotate 4s cubic-bezier(.49, .05, .32, 1.04) infinite alternate;
+    animation: rotate 4s cubic-bezier(.49, .05, .32, 1.04) infinite alternate;
+}
+
+hr{
+    margin: 3% 0;
+}
+
+.some{
+    width: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.icon{
+    padding: 0 20px;
+    width: 50px;
+    
+}
+
+@-webkit-keyframes rotate {
+    50% {
+        -webkit-transform: rotate(250deg);
+    }
+}
+
+@keyframes rotate {
+    50% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    body{
+        padding: 0;
+    }
+    
+    .logo{
+        width: 40px;
+    }
+    
+    navv{
+        padding:25px 0;
+    }
+    
+    li{
+        padding: 0 10px;
+        font-size: 0.7em;
+    }
+    
+    .headline{
+        font-size: 200%;
+    }
+    
+    .asgn{
+        font-size: 100%;
+    }
+    
+    .me{
+        height: 250px;
+    width: auto;
+    margin: 2%;
+    }
+    
+    .icon{
+        width: 15px;
+    }
+    
+    button{
+        padding: 9px 10px;
+        font-size: 40%;
+        
+    }
+    
+    
+}
